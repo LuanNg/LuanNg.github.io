@@ -37,7 +37,7 @@ var defCol = {
 var settings= {
   Node: {
     IsShowIcon: true,
-    IsShowCheckBox: false,
+    IsShowCheckBox: true,
     IsShowRootNode: true,
     IsShowNodeMenu: true,
     IsShowCount: true,
@@ -51,7 +51,7 @@ var settings= {
     IsShowDelButton: true,
     IsShowEditButton: true,
     IsShowIcon: true,
-    IsHightlightFilter: false
+    IsHightlightFilter: true
   },
   Icon: {
     Expand: 'fa fa-plus-square-o',
