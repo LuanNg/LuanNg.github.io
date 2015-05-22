@@ -69,8 +69,8 @@ var i = 0;
 
  console.log(def.Model);
   
-  if(i === 0){  option.CallBack.filterText = 'Node 2';  CMSTree.create(document.getElementById("cms-tree"), def,option ); i++; return;}
-  if(i === 1){ option.CallBack.filterText = 'Node';   CMSTree.create(document.getElementById("cms-tree"), def,option ); console.log(option);  i++; return;}
+  if(i === 0){  CMSTree.create(document.getElementById("cms-tree"), def,option ); i++; return;}
+  if(i === 1){ CMSTree.create(document.getElementById("cms-tree"), def,option ); console.log(option);  i++; return;}
   if(i === 2){ option.CallBack.filterText = 'Node 1';  CMSTree.create(document.getElementById("cms-tree"), def, option);console.log(option);  i++; return;}
   if(i === 3){ option.CallBack.filterText = 'Node 2';    CMSTree.create(document.getElementById("cms-tree"), def, option);console.log(option);  i++; return;}
 //	var state = CMSTree.option("disabled"); // get
